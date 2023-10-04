@@ -1,38 +1,120 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap');
+
+
+/* Colors*/
+
+:root {
+    --primary: #1a253f;
+    --dark: #151A33;
+    --secondary: #2b55cc;
+    --info: #4b79f6;
+    --ternary:#848db3;
+    --pure: #eff2f9;
+    --fade:#7081b9;
+    --nild: #8997bd;
+    --footer:#212A4A;
+    --black:#060b1b;
+    --twitter:#4ac7ec;
+    --dribbble:#ff5da0;
+    --success:#1ecab8;
+    --dabger:#f1646c;
+    --dark-blue:#28365f;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body{
+    font-family: 'IBM Plex Sans', sans-serif;
+background-color: var(--dark);
+-webkit-font-smoothing: antialiased;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+    line-height: 1;
 }
 
-.App-link {
-  color: #61dafb;
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
 }
+.main{
+    background-color: #fbb03b;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    border: #ffffff solid ;
+    width: 750px;
+    margin: auto;
+    color: white;
+    height: 122vh;
+    letter-spacing: 2px;
+    height: auto;
+    
+}
+.profile-img{
+    margin: auto;
+    
+}
+    header{
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+        border-bottom: 2px solid white;
+        letter-spacing: 3px;
+        
+    }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+      .contact {
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+        border-bottom: 2px solid white;
+        letter-spacing: 3px;
+        
+    }
+    .education {
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+        border-bottom: 2px solid white;
+        letter-spacing: 3px;
+        
+    }
+
+    .education {
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+        border-bottom: 2px solid white;
+        letter-spacing: 3px;
+        
+    }
+
+    .experience {
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+        border-bottom: 2px solid white;
+        letter-spacing: 3px;
+        
+    }
+
+    .skills {
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+        border-bottom: 2px solid white;
+        letter-spacing: 3px;
+        
+    }
+    .languages {
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+        border-bottom: 2px solid white;
+        letter-spacing: 3px;
+        
+    }
+    h1,h2{
+        text-decoration: underline;
+        margin-bottom: 20px;
+    }
