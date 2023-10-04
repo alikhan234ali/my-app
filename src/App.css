@@ -58,8 +58,17 @@ h1, h2, h3, h4, h5, h6{
     
 }
 .profile-img{
-    margin: auto;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
+    
+}
+img{
+    border-radius: 50%;
+    border: 5px solid #f8f5e6;
 }
     header{
         margin-bottom: 20px;
