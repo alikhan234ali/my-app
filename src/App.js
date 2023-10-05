@@ -4,6 +4,7 @@ import './App.css';
 function App() {
   return (
     <div class="main">
+      <div class="main2">
       <div class="profile-img" ><img src="profile-img.jpg"/></div>
       <br/> <br/>
       <header>
@@ -61,7 +62,6 @@ function App() {
         <h2>Languages</h2>
         <ul>
           <li>English (Fluent)</li>
-          <li>Spanish (Intermediate)</li>
           <li>Urdu</li>
         </ul>
       </section>
@@ -69,6 +69,7 @@ function App() {
       <footer>
         <p>&copy; 2023 Ali Ahmad</p>
       </footer>
+    </div>
     </div>
   );
 }
